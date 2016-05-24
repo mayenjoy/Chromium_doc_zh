@@ -1,5 +1,4 @@
-# Chromium_doc_zh
-Chromium中文文档 for
+# Chromium_doc_en
 
 https://www.chromium.org/developers/design-documents
 
