@@ -1,13 +1,7 @@
 # Chromium_doc_zh
-> Chromium中文文档 for https://www.chromium.org/developers/design-documents
+> Chromium官网文档地址 https://www.chromium.org/developers/design-documents
 
-> 翻译之加强对android webview理解，同时作为架构设计的学习。
-
-> 还未完全完成，不断更新ing，欢迎star
-
-> gitbook地址：https://ahangchen.gitbooks.io/chromium_doc_zh/content/zh// 适合阅读，可以导出pdf
-
-> github地址： https://github.com/ahangchen/Chromium_doc_zh 
+> github地址： https://github.com/mayenjoy/Chromium_doc_zh/Chromium_doc_zh 
 
 > 翻译了一段时间感觉工作量真的有点大，欢迎志同道合的朋友一起翻译。
 
