@@ -4,7 +4,7 @@
 
 注意：2013年六月之后，这篇文章需要更新。相关的类被重命名(s/ProfileKeyed/BrowserContextKeyed/)以及移动到components/browser_context_keyed_service中。
 
-Chromium有许多与**Profile**挂钩的特性，所谓Profile，即一些与当前用户以及跨越多个浏览器window的当前chrome会话。在Chromium刚起步的时候，profile只有一些动态的部分：cookie jar包，历史记录数据库，书签数据库，以及与用户首选项相关的一些东西。在Chromium工程三年的时间里，Profile变成了各个特性的连接点，派生出了一些东西像Profile::GetInstantPromoCounter()或者Profile::GetHostContentSettingsMap()。直到这个文章完成时，在Profile里已经有58个纯虚函数了。
+Chromium有许多与**Profile**挂钩的特性，所谓Profile，即一些与当前用户相关以及和当前产生多个chrome窗口的会话相关的一堆数据。在Chromium刚起步的时候，profile只有一些动态的部分：cookie jar，历史记录数据库，书签数据库，以及与用户首选项相关的一些东西。在Chromium工程三年的时间里，Profile变成了各个特性的连接点，产出了一些东西像Profile::GetInstantPromoCounter()或者Profile::GetHostContentSettingsMap()。直到这个文章完成时，在Profile里已经有58个纯虚函数了。
 
 Profile应当是一个最小引用，即一种不拥有实体的句柄对象。
 
