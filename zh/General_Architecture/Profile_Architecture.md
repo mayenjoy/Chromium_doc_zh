@@ -35,7 +35,7 @@ class ProfileImpl {
 
 在之前的系统里，Profile是一个构成大部分是纯虚访问器的接口。一有好几个版本的profile, Normal（正常），Incognito（匿名）和 Testing（测试）。
 
-在这种情况下，Profile是所有活动的核心。profile拥有它所有的服务，并把它们向外界传递出去。Profile析构遵循ProfileImpl中对服务的任意排列顺序。另外的分支如果想要增加自己的服务或移除不需要的服务而不修改Profile接口，这些都不可以。
+在这种情况下，Profile是所有活动的核心。profile拥有它所有的服务，并把它们向外界传递出去。Profile析构遵循ProfileImpl中对服务的任意排列顺序。另外没有办法使得分支想要增加自己的服务(或移除不需要的服务)而不修改Profile接口。
 
 ###新的方式：BrowserContextKeyedServiceFactory
 我们不再让Profile拥有某个service，而是设计了专用的单例FooServiceFactory，比如这样一个最小实现：
