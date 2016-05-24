@@ -74,8 +74,8 @@ class FooServiceFactory : public BrowserContextKeyedServiceFactory {
   - 如果你重写ServiceHasOwnInstanceInIncognito()并返回true，它会为incognito profile创建一个新的服务。
 - 默认情况下，BCKSF会延迟创建你的service，如果你重写ServiceIsCreatedWithProfile()并返回true，你的service会与profile一同创建。
 
-- BCKSF为你在单元测试时提供了多种方式来控制行为。查看头文件了解更多。
-- BCKSF为你一种方式提供一种方式增加并固定移除的和释放的行为。
+- BCKSF为你提供了多种方式来控制在单元测试时行为。查看头文件了解更多。
+- BCKSF为你提供了一种方式来调整和修改关闭和析构时的行为。
 
 
 ###几种工厂
