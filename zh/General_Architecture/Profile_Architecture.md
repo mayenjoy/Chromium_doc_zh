@@ -61,7 +61,7 @@ class FooServiceFactory : public BrowserContextKeyedServiceFactory {
 我们有一个通用的BrowserContextKeyedServiceFactory，它用一个由你的BuildServiceInstanceFor()方法提供的对象，执行与profile相关的大部分工作。BrowserContextKeyedServiceFactory为你提供了一个重写接口，让你在响应Profile生命周期事件时，管理你的Service对象的生命周期，并在service依赖的service关闭前，关闭它本身。
 
 一个绝对最小工厂会提供下面的方法：
-- 一个static GetInstance()方法，单例指向你的工厂。
+- 一个static GetInstance()方法，以单例的方式指向你的工厂。
 - 一个构造函数，关联这个BrowserContextKeyedServiceFactory和ProfileDependencyManager实例，并做DependsOn()声明。
 - 一个GetForProfile()方法，包装BrowserContextKeyedServiceFactory，将返回结果转换为你需要的返回值。
 - 一个BuildServiceInstanceFor()方法，框架会为每个|profile|调用一次这个方法，它必须返回你的服务的一个合适的实例。
