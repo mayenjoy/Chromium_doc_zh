@@ -19,7 +19,7 @@ Profile应当是一个最小引用，即一种不拥有实体的句柄对象。
 - 延伸目标：将不同的特性隔离到它们自己的.a或.so文件里，进一步减小我们奇葩的编译链接时间。
 
 ##BrowserContextKeyedServiceFactory
-> 浏览器上下文关键服务工厂
+> 浏览器上下文区分服务工厂
 
 ###旧的方式：Profile接口和ProfileImpl实现
 在以前的设计里，服务通常用Profile里的一个访问器来获得：
