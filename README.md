@@ -3,7 +3,7 @@
 
 > github地址： https://github.com/mayenjoy/Chromium_doc_zh/Chromium_doc_zh 
 
-> 翻译了一段时间感觉工作量真的有点大，欢迎志同道合的朋友一起翻译。
+> 翻译了一段时间感觉内容真的好多，欢迎志同道合的朋友一起翻译。
 
 #设计文档
 
