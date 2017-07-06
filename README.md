@@ -5,7 +5,7 @@
 
 > 翻译了一段时间感觉内容真的好多，欢迎志同道合的朋友一起翻译。
 
-#设计文档
+# 设计文档
 
 - [Start Here: 背景阅读](zh/Start_Here_Background_Reading/README.md): 描述Chromium的宏观架构
   - [多进程架构](zh/Start_Here_Background_Reading/Multi-process_Architecture.md)
@@ -14,7 +14,7 @@
 
   - [Chromium如何展示web界面](zh/Start_Here_Background_Reading/How_Chromium_Displays_Web_Pages.md): 自底向上概述WebKit是如何嵌入到Chromium中的
   
-##See Also: 源代码中的设计文档
+## See Also: 源代码中的设计文档
 
     https://chromium.googlesource.com/chromium/src/+/master/docs/
 
@@ -39,14 +39,14 @@
   
  也可以看看 [V8](zh/http://code.google.com/apis/v8/)的文档, 这是Chromium使用的Javascript引擎
 
-- ###[UI Framework](zh/UI_Framework/README.md)
+- ### [UI Framework](zh/UI_Framework/README.md)
   - [UI开发实践](zh/UI_Framework/UI_Development_Practices.md): 在Chrome的content区域内外开发的最佳实践
   - [Views framework](zh/UI_Framework/Views_framework.md): Windows和Chrome OS上使用的UI layout 层级
   - [views Windowing系统](zh/UI_Framework/views_Windowing_system.md): 如何用view构建对话框盒子和其他windowUI
   - [Aura](zh/UI_Framework/Aura.md): Chrome下一代硬件加速UI框架，新的ChromeOS 系统由它构建而成
   - [Native控制](zh/UI_Framework/NativeControls.md): 在view中使用平台原生widget
   - 用View和Aura实现聚焦与激活
-- ###[Graphics](zh/Graphics/README.md)
+- ### [Graphics](zh/Graphics/README.md)
   - [概述](zh/Graphics/Overview.md)
   - [Chrome中使用的GPU加速](zh/Graphics/GPU_Accelerated_Compositing_in_Chrome.md)
   - [GPU特性状态仪表盘](zh/Graphics/GPU_Feature_Status_Dashboard.md)
